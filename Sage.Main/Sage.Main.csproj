@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sage.Comm\Sage.Comm.csproj" />
+    <ProjectReference Include="..\Sage.Tests\Sage.Tests.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>org.herbal3d.Sage</RootNamespace>
+  </PropertyGroup>
+
+</Project>
