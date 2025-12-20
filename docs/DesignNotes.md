@@ -58,7 +58,7 @@ Basil viewer connection. That is, one connection could be
 I am leaning toward WebTransport and MessagePack but other
 forms might be used especially while debugging.
 
-## BItem Store
+## Sage.Pool Store
 
 The contents of the space managed by the Sage space-server is
 collection of <code>BItems</code>.
@@ -84,6 +84,56 @@ would take periodic snapshots and be used at shutdown.
 For [OpenSimulator] is this needed at all since region startup
 dumps all region data to the viewer?
 
+## Account Info Store
+
+There is an store that is 
+
+## Sage Block Diagram
+
+The following diagram shows the relationship of the main components:
+
+![Sage Block Diagram](../images/SageBlockDiagram.png)
+
+Multiple "Basil viewers" connect to the Sage.Basil modules.
+The Sage.Basil modules use the "account info" to authenticate
+the connection from the "Basil viewer". Once authenticated, Sage.Basil
+queries the Sage.Pool to find entities to send to the "Basil viewer"
+for display in the 3d scene. 
+
+The query into Sage.Pool causes events to Sage.OS which causes Sage.OS
+to connect to the [OpenSimulator] region using information from "Account info".
+The connection to the [OpenSimulator] region causes entity information to come from
+the region. Sage.OS checks to see if the entity already exists in the "Asset Store"
+by consulting Sage.Asset. If the entity doesn't exist, Sage.Convert is called to
+create a properly formatted asset/entity (usually conversion from OpenSimulator prim
+format to GLTF).
+
+Once the entity is converted into an asset and its metadata, the metadata is
+placed in Sage.Pool which causes events to Sage.Basil which might sent
+updates to the viewers.
+
+The 3d entities are split into two pieces: "metadata" and "assets". The "metadata"
+has information about position and ownership while "assets" would be the
+actual content of the entity. For instance, the metadata of a mesh would
+identify the mesh asset and where it is located in the 3d space while the
+actual mesh vertex information is stored as an "asset". The viewers
+access the asset portion of the entity through a reverse proxy gateway
+which, besides accessing the "Asset store", provides access authentication.
+
+## Code Conventions
+
+The brace style will be K&R ("1TBS").
+
+Sage will use a Dependency Injection design using the
+Microsoft.Extensions.DependencyInjection NuGet library.
+Most of the classes will accept their dependencies in the
+class definition. This will enable testing of individual classes.
+
+Configuration will be implemented using
+Microsoft.Extensions.Configuration NuGet library
+
+Logging will use
+Microsoft.Extension.Logging NuGet library.
 
 
 [Basil]: https://herbal3d.org/Basil

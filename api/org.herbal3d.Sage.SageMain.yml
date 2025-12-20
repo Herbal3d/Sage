@@ -1,0 +1,489 @@
+### YamlMime:ManagedReference
+items:
+- uid: org.herbal3d.Sage.SageMain
+  commentId: T:org.herbal3d.Sage.SageMain
+  id: SageMain
+  parent: org.herbal3d.Sage
+  children:
+  - org.herbal3d.Sage.SageMain.Config
+  - org.herbal3d.Sage.SageMain.GetService``1
+  - org.herbal3d.Sage.SageMain.Initialize
+  langs:
+  - csharp
+  - vb
+  name: SageMain
+  nameWithType: SageMain
+  fullName: org.herbal3d.Sage.SageMain
+  type: Class
+  source:
+    remote:
+      path: Sage.Main/Main.cs
+      branch: main
+      repo: git@github.com:Herbal3d/Sage.git
+    id: SageMain
+    path: Sage.Main/Main.cs
+    startLine: 19
+  assemblies:
+  - Sage.Main
+  namespace: org.herbal3d.Sage
+  syntax:
+    content: public class SageMain
+    content.vb: Public Class SageMain
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: org.herbal3d.Sage.SageMain.Config
+  commentId: P:org.herbal3d.Sage.SageMain.Config
+  id: Config
+  parent: org.herbal3d.Sage.SageMain
+  langs:
+  - csharp
+  - vb
+  name: Config
+  nameWithType: SageMain.Config
+  fullName: org.herbal3d.Sage.SageMain.Config
+  type: Property
+  source:
+    remote:
+      path: Sage.Main/Main.cs
+      branch: main
+      repo: git@github.com:Herbal3d/Sage.git
+    id: Config
+    path: Sage.Main/Main.cs
+    startLine: 24
+  assemblies:
+  - Sage.Main
+  namespace: org.herbal3d.Sage
+  syntax:
+    content: public static IConfigurationRoot Config { get; }
+    parameters: []
+    return:
+      type: Microsoft.Extensions.Configuration.IConfigurationRoot
+    content.vb: Public Shared Property Config As IConfigurationRoot
+  overload: org.herbal3d.Sage.SageMain.Config*
+- uid: org.herbal3d.Sage.SageMain.GetService``1
+  commentId: M:org.herbal3d.Sage.SageMain.GetService``1
+  id: GetService``1
+  parent: org.herbal3d.Sage.SageMain
+  langs:
+  - csharp
+  - vb
+  name: GetService<T>()
+  nameWithType: SageMain.GetService<T>()
+  fullName: org.herbal3d.Sage.SageMain.GetService<T>()
+  type: Method
+  source:
+    remote:
+      path: Sage.Main/Main.cs
+      branch: main
+      repo: git@github.com:Herbal3d/Sage.git
+    id: GetService
+    path: Sage.Main/Main.cs
+    startLine: 38
+  assemblies:
+  - Sage.Main
+  namespace: org.herbal3d.Sage
+  summary: >-
+    Gets an instance of <code class="typeparamref">T</code>
+
+    Will throw if its unable to provide a <code class="typeparamref">T</code>.
+  example: []
+  syntax:
+    content: public static T GetService<T>()
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Shared Function GetService(Of T)() As T
+  overload: org.herbal3d.Sage.SageMain.GetService*
+  exceptions:
+  - type: System.ApplicationException
+    commentId: T:System.ApplicationException
+    description: ''
+  nameWithType.vb: SageMain.GetService(Of T)()
+  fullName.vb: org.herbal3d.Sage.SageMain.GetService(Of T)()
+  name.vb: GetService(Of T)()
+- uid: org.herbal3d.Sage.SageMain.Initialize
+  commentId: M:org.herbal3d.Sage.SageMain.Initialize
+  id: Initialize
+  parent: org.herbal3d.Sage.SageMain
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: SageMain.Initialize()
+  fullName: org.herbal3d.Sage.SageMain.Initialize()
+  type: Method
+  source:
+    remote:
+      path: Sage.Main/Main.cs
+      branch: main
+      repo: git@github.com:Herbal3d/Sage.git
+    id: Initialize
+    path: Sage.Main/Main.cs
+    startLine: 48
+  assemblies:
+  - Sage.Main
+  namespace: org.herbal3d.Sage
+  syntax:
+    content: public static void Initialize()
+    content.vb: Public Shared Sub Initialize()
+  overload: org.herbal3d.Sage.SageMain.Initialize*
+references:
+- uid: org.herbal3d.Sage
+  commentId: N:org.herbal3d.Sage
+  href: org.html
+  name: org.herbal3d.Sage
+  nameWithType: org.herbal3d.Sage
+  fullName: org.herbal3d.Sage
+  spec.csharp:
+  - uid: org
+    name: org
+    href: org.html
+  - name: .
+  - uid: org.herbal3d
+    name: herbal3d
+    href: org.herbal3d.html
+  - name: .
+  - uid: org.herbal3d.Sage
+    name: Sage
+    href: org.herbal3d.Sage.html
+  spec.vb:
+  - uid: org
+    name: org
+    href: org.html
+  - name: .
+  - uid: org.herbal3d
+    name: herbal3d
+    href: org.herbal3d.html
+  - name: .
+  - uid: org.herbal3d.Sage
+    name: Sage
+    href: org.herbal3d.Sage.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: org.herbal3d.Sage.SageMain.Config*
+  commentId: Overload:org.herbal3d.Sage.SageMain.Config
+  href: org.herbal3d.Sage.SageMain.html#org_herbal3d_Sage_SageMain_Config
+  name: Config
+  nameWithType: SageMain.Config
+  fullName: org.herbal3d.Sage.SageMain.Config
+- uid: Microsoft.Extensions.Configuration.IConfigurationRoot
+  commentId: T:Microsoft.Extensions.Configuration.IConfigurationRoot
+  parent: Microsoft.Extensions.Configuration
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.iconfigurationroot
+  name: IConfigurationRoot
+  nameWithType: IConfigurationRoot
+  fullName: Microsoft.Extensions.Configuration.IConfigurationRoot
+- uid: Microsoft.Extensions.Configuration
+  commentId: N:Microsoft.Extensions.Configuration
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Configuration
+  nameWithType: Microsoft.Extensions.Configuration
+  fullName: Microsoft.Extensions.Configuration
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Configuration
+    name: Configuration
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Configuration
+    name: Configuration
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration
+- uid: System.ApplicationException
+  commentId: T:System.ApplicationException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.applicationexception
+  name: ApplicationException
+  nameWithType: ApplicationException
+  fullName: System.ApplicationException
+- uid: org.herbal3d.Sage.SageMain.GetService*
+  commentId: Overload:org.herbal3d.Sage.SageMain.GetService
+  href: org.herbal3d.Sage.SageMain.html#org_herbal3d_Sage_SageMain_GetService__1
+  name: GetService
+  nameWithType: SageMain.GetService
+  fullName: org.herbal3d.Sage.SageMain.GetService
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  commentId: '!:T'
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: org.herbal3d.Sage.SageMain.Initialize*
+  commentId: Overload:org.herbal3d.Sage.SageMain.Initialize
+  href: org.herbal3d.Sage.SageMain.html#org_herbal3d_Sage_SageMain_Initialize
+  name: Initialize
+  nameWithType: SageMain.Initialize
+  fullName: org.herbal3d.Sage.SageMain.Initialize

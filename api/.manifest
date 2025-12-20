@@ -1,0 +1,12 @@
+{
+  "Sage.Comm": "Sage.Comm.yml",
+  "Sage.Comm.Class1": "Sage.Comm.Class1.yml",
+  "Sage.Tests": "Sage.Tests.yml",
+  "Sage.Tests.UnitTest1": "Sage.Tests.UnitTest1.yml",
+  "Sage.Tests.UnitTest1.Test1": "Sage.Tests.UnitTest1.yml",
+  "org.herbal3d.Sage": "org.herbal3d.Sage.yml",
+  "org.herbal3d.Sage.SageMain": "org.herbal3d.Sage.SageMain.yml",
+  "org.herbal3d.Sage.SageMain.Config": "org.herbal3d.Sage.SageMain.yml",
+  "org.herbal3d.Sage.SageMain.GetService``1": "org.herbal3d.Sage.SageMain.yml",
+  "org.herbal3d.Sage.SageMain.Initialize": "org.herbal3d.Sage.SageMain.yml"
+}

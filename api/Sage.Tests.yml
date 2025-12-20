@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sage.Tests
+  commentId: N:Sage.Tests
+  id: Sage.Tests
+  children:
+  - Sage.Tests.UnitTest1
+  langs:
+  - csharp
+  - vb
+  name: Sage.Tests
+  nameWithType: Sage.Tests
+  fullName: Sage.Tests
+  type: Namespace
+  assemblies:
+  - Sage.Tests
+references:
+- uid: Sage.Tests.UnitTest1
+  commentId: T:Sage.Tests.UnitTest1
+  href: Sage.Tests.UnitTest1.html
+  name: UnitTest1
+  nameWithType: UnitTest1
+  fullName: Sage.Tests.UnitTest1

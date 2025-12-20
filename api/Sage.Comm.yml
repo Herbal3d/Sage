@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Sage.Comm
+  commentId: N:Sage.Comm
+  id: Sage.Comm
+  children:
+  - Sage.Comm.Class1
+  langs:
+  - csharp
+  - vb
+  name: Sage.Comm
+  nameWithType: Sage.Comm
+  fullName: Sage.Comm
+  type: Namespace
+  assemblies:
+  - Sage.Comm
+references:
+- uid: Sage.Comm.Class1
+  commentId: T:Sage.Comm.Class1
+  href: Sage.Comm.Class1.html
+  name: Class1
+  nameWithType: Class1
+  fullName: Sage.Comm.Class1

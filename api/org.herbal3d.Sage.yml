@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: org.herbal3d.Sage
+  commentId: N:org.herbal3d.Sage
+  id: org.herbal3d.Sage
+  children:
+  - org.herbal3d.Sage.SageMain
+  langs:
+  - csharp
+  - vb
+  name: org.herbal3d.Sage
+  nameWithType: org.herbal3d.Sage
+  fullName: org.herbal3d.Sage
+  type: Namespace
+  assemblies:
+  - Sage.Main
+references:
+- uid: org.herbal3d.Sage.SageMain
+  commentId: T:org.herbal3d.Sage.SageMain
+  href: org.herbal3d.Sage.SageMain.html
+  name: SageMain
+  nameWithType: SageMain
+  fullName: org.herbal3d.Sage.SageMain
